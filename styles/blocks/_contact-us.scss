@@ -74,4 +74,11 @@
                 var(--border-large-radius);
         }
     }
+
+    &__field{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 15px;
+    }
 }

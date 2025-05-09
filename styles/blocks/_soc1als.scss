@@ -1,0 +1,31 @@
+.soc1als {
+    &__list {
+        display: flex;
+        column-gap: 20px;
+      }
+
+    &__item{
+        color: var(--color-dark-alt);
+    }
+    &__link {
+        
+      @include flex-center(true);        // по центру иконка
+      @include square(30px);       // width+height = 34px
+  
+      /* просто базовые стили */
+      
+      background-color: var(--color-light);
+      border-radius: 50%;
+  
+      @include hover {
+        background-color: var(--color-accent);
+    
+      }
+  
+      svg {
+        width: 50%;    // иконка займёт половину круга
+        height: 50%;
+      }
+    }
+  }
+  

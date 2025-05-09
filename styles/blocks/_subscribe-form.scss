@@ -1,0 +1,21 @@
+.subscribe-form {
+    
+   display: flex;       /* контейнер, обёртка input+button */
+  align-items: center; /* выравнивание по центру */
+
+      
+      border-radius: var(--border-radius);
+    
+      &__input{
+        background-color: var(--color-dark-alt);
+      }
+        @include desktop{
+            flex-direction: column;
+            column-gap: 22px;
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+
+
+        }
+  }

@@ -1,6 +1,6 @@
 .header{
     padding-top: 60px;
-
+    
     @include desktop{
         padding-top: 30px;
     }
@@ -9,7 +9,7 @@
         justify-content: center;
         align-items: center;
         column-gap: 40px;
-        
+        padding-inline: 40px;
         @include tablet{
             column-gap: 30px;
         }

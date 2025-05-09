@@ -23,11 +23,11 @@
         flex-direction: column;
         max-width: 531px;
         align-items: start;
-
+        row-gap: 20px;
         @include mobile{
             display: contents;
             order: -2;
-
+            
         }
     }
 
@@ -40,9 +40,10 @@
         }
     }
 
-    &__descrpiton{
+    &__description{
         font-size: 20px;
         line-height: 1.4;
+        
         @include mobile{
             margin-bottom: 40px;
         }
@@ -54,6 +55,7 @@
             width: 100%;
             max-width: 390px;
             margin-inline: auto;
+            
         }
     }
 
